@@ -439,4 +439,86 @@ textarea{
 }
 
 
+/*Service Page*/
 
+.services-section{
+    background:#4444;
+    margin-top: 0 !important;
+}
+
+
+
+.card-services{
+    padding:10px;
+    transition: 0.3s;
+    background: #ffffff;
+    margin-bottom: 10px
+}
+
+.card-services:hover{
+    background: #12326b;
+    color: white;
+    
+}
+
+/*For Clients*/
+section#title-bar-client-form{
+    background:transparent;
+    color: white;
+    height:80px;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px
+}
+
+.section-client-form{
+    background:url(../img/architecture.jpg) no-repeat  top center;
+    margin-top: 0 !important;
+}
+
+.section-client-form textarea, input[type]:not([type="submit"]){
+    background: #eee;
+    border: none;
+    padding: 16px;
+    width: 100%;
+    border-radius: 0px;
+    color: #999;
+    font-size: 14px;
+    font-weight: bold
+}
+
+textarea{
+    height: 200px !important
+}
+
+.input-text-color{
+    color: #333 !important
+}
+
+
+/*Jobseekers*/
+
+section#title-bar-jobseeker-form{
+    background:transparent;
+    color: white;
+    height:80px;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px
+}
+
+.section-jobseeker-form{
+    background:url(../img/writing.jpg) no-repeat  top center;
+    margin-top: 0 !important;
+}
+
+.section-jobseeker-form textarea, input[type]:not([type="submit"]){
+    background: #eee;
+    border: none;
+    padding: 16px;
+    width: 100%;
+    border-radius: 0px;
+    color: #999;
+    font-size: 14px;
+    font-weight: bold
+}
