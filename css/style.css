@@ -439,6 +439,23 @@ textarea{
 }
 
 
+
+/*section#contact{
+    
+}*/
+
+#contact textarea, input[type]:not([type="submit"]){
+    background: #eee;
+    border: none;
+    padding: 16px;
+    width: 100%;
+    border-radius: 0px;
+    color: #999;
+    font-size: 14px;
+    font-weight: bold
+}
+
+
 /*Service Page*/
 
 .services-section{
