@@ -16,6 +16,8 @@ img.demo{
     /*box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
     transition: 0.3s;
     background: #ffffff;*/
+    margin-top: 15px;
+    margin-bottom: 15px
 }
 
 .check{
@@ -61,8 +63,22 @@ nav{
     color:#1caa98 !important;
 }
 
-.col-lg-4{
+
+
+
+.col-lg-4 {
     margin-bottom: 40px;
+   
+}
+
+
+.pillars{
+    transition: 0.3s;
+}
+
+.pillars:hover{
+    background: #12326b;
+    color: white
 }
 
 section{
@@ -347,8 +363,14 @@ footer a:hover{
     text-align: center
 }
 
+
 textarea{
-    resize: none
+    resize: none;
+    height: 200px !important;
+}
+
+textarea:focus{
+    background: #fff
 }
 
 
@@ -504,9 +526,7 @@ section#title-bar-client-form{
     font-weight: bold
 }
 
-textarea{
-    height: 200px !important
-}
+
 
 .input-text-color{
     color: #333 !important
